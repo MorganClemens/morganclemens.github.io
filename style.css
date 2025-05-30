@@ -1,0 +1,47 @@
+/* Reset some basic styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(to bottom, #e0f7fa, #b2ebf2);
+  font-family: 'Helvetica Neue', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #004d40;
+  text-align: center;
+}
+
+main {
+  max-width: 600px;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.tagline {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+  color: #00695c;
+}
+
+.read-more {
+  color: #00796b; /* a slighly different blue */
+  text-decoration: underline; /* underline by default */
+  font-weight: 600;
+  cursor: pointer; /* pointer cursor on hover */
+  transition: color 0.3s ease;
+}
+
+.read-more:hover {
+  color: #0d47a1; /* darker blue on hover */
+  text-decoration: none; /* optionally remove underline on hover */
+}
